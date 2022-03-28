@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EX-PE</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="reg.css">
+    <!-- Local
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.1.1-web/css/all.min.css"> -->
+    <script src="https://kit.fontawesome.com/264d42c097.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="res/favicon.png" />
+</head>
+<body>
+    <header class="header">
+        <button class="show-menu fas fa-chevron-right"></button>
+        <h1 class="title">LOGYC</h1>
+        <p></p>
+        <a href="mailto:tecnologyfanatico@gmail.com"><button class="like far fa-heart"></button></a>
+    </header>
+    <div class="sections">
+        <a href="#">Html <i class="fas fa-chevron-right"></i></a>
+        <a href="#">Viewport <i class="fas fa-chevron-right"></i></a>
+        <a href="#">Que dif... <i class="fas fa-chevron-right"></i></a>
+        <a href="#section2" style="color: #EE5555;">| <i class="fas fa-arrow-down" style="color: #EE5555;"></i></a>
+    </div>
+    <nav class="menu">
+        <button class="close-menu fas fa-times"></button>
+        <div class="logo">LOGO</div>
+        <ul class="menu-option-list">
+            <li class="menu-list-item">&lt;emply&gt;</li>
+            <li class="menu-list-item">&lt;emply&gt;</li>
+            <li class="menu-list-item">&lt;emply&gt;</li>
+            <li class="menu-list-item">&lt;emply&gt;</li>
+            <li class="menu-list-item">&lt;emply&gt;</li>
+            <li class="menu-list-item">&lt;emply&gt;</li>
+            <li class="menu-list-item">&lt;emply&gt;</li>
+            <li class="menu-list-item">&lt;emply&gt;</li>
+        </ul>
+        <div class="menu-social">
+            <a href="https://facebook.com/carlonboy"><i class="social-item fab fa-facebook"></i></a>
+            <a href="https://wa.me/50373793053?text=¡Hola!%20Ya%20Visite;%20TuPágina"><i class="social-item fab fa-whatsapp"></i></a>
+            <a href="https://twitter.com/carlonboyy"><i class="social-item fab fa-twitter"></i></a>
+            <a href="#"><i class="social-item fab fa-github"></i></a>
+        </div>
+        <button class="info fas fa-info"></button>
+    </nav>
+    <div class="window">
+        <button class="close-window fas fa-times"></button>
+        <h2 class="window-title">Advisiment</h2>
+    <p class="window-paragraph">none / error</p>
+    </div>
+        <main class="main">
+        <section class="section">
+<h2 class="section-title">¿Qué diferencia existe entre el Viewport y la resolución de pantalla de un dispositivo?</h2>
+<br>
+<hr class="hrow"><br>
+<div class="PostBody text">
+<p><strong>El <em>viewport</em></strong> de un dispositivo es el&nbsp;<strong>tama&ntilde;o te&oacute;rico</strong>&nbsp;que tiene la pantalla de dicho dispositivo, el cual no tiene por qu&eacute; coincidir con la resoluci&oacute;n real de la pantalla (de hecho no coincide casi nunca en dispositivos modernos). <strong>La resoluci&oacute;n</strong> se refiere al <strong>n&uacute;mero de p&iacute;xeles</strong> que puede mostrar dicha pantalla.</p>
+<p>As&iacute; por ejemplo, los primeros tablets iPad de Apple,&nbsp;el&nbsp;<a href="https://en.wikipedia.org/wiki/IPad_(1st_generation)" target="_blank">iPad 1</a>&nbsp;y el 2, ten&iacute;an una resoluci&oacute;n de pantalla de 1024x768 p&iacute;xeles, y el tama&ntilde;o por defecto de su <em>viewport</em> era exactamente el mismo (o sea, una <strong>ratio de pixels de 1x</strong>). Sin embargo, cuando lanzaron el <a href="https://en.wikipedia.org/wiki/IPad_(3rd_generation)" target="_blank">iPad 3</a> que ya ten&iacute;a una pantalla "retina", la <strong>resoluci&oacute;n f&iacute;sica</strong> de la misma era 2048x1536, mientras que <strong>el tama&ntilde;o del <em>viewport</em> segu&iacute;a siendo el mismo</strong>: 1024x768 (es decir, la mitad, y por tanto una ratio de p&iacute;xeles de 2x).</p>
+<blockquote class="blockquote">
+<p>La resoluci&oacute;n se refiere al n&uacute;mero de p&iacute;xeles que puede mostrar dicha pantalla; mientras que el&nbsp;<em>viewport</em>&nbsp;es el tama&ntilde;o en p&iacute;xeles&nbsp;que simula el navegador m&oacute;vil que tiene la pantalla&nbsp;cuando visualiza una p&aacute;gina web.</p>
+</blockquote>
+<p>Al ancho del <em>viewport</em>&nbsp;se le suele&nbsp;denominar ancho en <strong>p&iacute;xeles CSS</strong>, ya que no son p&iacute;xeles reales sino los que el navegador (y por lo tanto sus hojas de estilo) ven en la pr&aacute;ctica de cara a dise&ntilde;ar el <em>layout</em> de la p&aacute;gina.</p>
+<p>De hecho, para ver la diferencia existente entre el ancho del <em>viewport</em> de un navegador y la resoluci&oacute;n de pantalla solo hay que pensar en un entorno de escritorio convencional en el que, al contrario que en un dispositivo m&oacute;vil, las ventanas se pueden redimensionar a voluntad&nbsp;y la diferencia entre ambos conceptos se hace muy evidente:</p>
+<p style="text-align: center;"></p>
+<p>Lo que ocurre es que esto es tan natural para nosotros que no pensamos en ello siquiera. En el caso de los dispositivos m&oacute;viles, al ser todas aplicaciones a pantalla completa, <strong>la cosa se complica</strong> porque el navegador simula tener un ancho en p&iacute;xeles inferior al que realmente existe y&nbsp;puede visualizar la pantalla con el objeto de que todo se vea mucho mejor.</p>
+<br><h3>&iquest;Qu&eacute; quiere decir esto en la pr&aacute;ctica?</h3>
+<p>Pues quiere decir que, en un dispositivo m&oacute;vil, la pantalla realmente tiene capacidad para mostrar im&aacute;genes de 2048 p&iacute;xeles de ancho y 1536 de alto. Y si abres una imagen de estas dimensiones la mostrar&aacute; perfectamente. Sin embargo, al visualizar algo en el navegador m&oacute;vil del dispositivo, <strong>el &aacute;rea disponible "simula" una resoluci&oacute;n&nbsp;de pantalla menor</strong>, en este caso la mitad de la capacidad de resoluci&oacute;n real, e indica a la p&aacute;gina que su resoluci&oacute;n es de 1024x768. Es decir, en este caso el <em>viewport</em> es menor (la mitad) que las dimensiones de la pantalla.</p>
+<br><h3>&iquest;Por qu&eacute; se hace esto?</h3>
+<p>Bueno, pues porque si se usase toda la capacidad de la pantalla para visualizar <strong>la p&aacute;gina, se ver&iacute;a muy peque&ntilde;a y no ser&iacute;a &uacute;til</strong>.</p>
+<p>Imag&iacute;nate por un momento un dise&ntilde;o de p&aacute;gina web <em>no-responsiva</em>&nbsp;que tiene un ancho de 2048px, y que se ve de f&aacute;bula en el monitor de un ordenador con resoluci&oacute;n FullHD+ (o sea, 2160 p&iacute;xeles de ancho, algo mayor). Algo as&iacute;:</p>
+<p style="text-align: center;"></p>
+<p>Si la visualizas en un ordenador con una pantalla de menor resoluci&oacute;n, digamos 1280x1024, lo que ocurrir&aacute; es que le saldr&aacute;n unas barras de desplazamiento para que puedas moverte y ver la p&aacute;gina entera., algo as&iacute;:</p>
+<p style="text-align: center;"></p>
+<p>Una cosa muy inc&oacute;moda, pero al menos podr&aacute;s ver la p&aacute;gina.</p>
+<p>Ahora imagina que ves la misma p&aacute;gina en la pantalla del iPad 3, pudiendo aprovechar toda la resoluci&oacute;n que tiene y&nbsp;que soporta de sobra ese ancho. Es decir, <strong>imagina que el <em>viewport</em> y la resoluci&oacute;n del iPad 3 tuvieran las mismas dimensiones</strong>. &iquest;Qu&eacute; ver&iacute;as en ese caso?... Pues <strong>algo diminuto</strong> que no te permitir&iacute;a leer nada sin hacer <em>zoom</em>. Algo as&iacute;:</p>
+<p style="text-align: center;"></p>
+<p>Con el concepto de&nbsp;<em>viewport</em>, es como si la pantalla del iPad 3, a efectos del navegador, tuviera menos resoluci&oacute;n y las cosas se ver&aacute;n a un tama&ntilde;o m&aacute;s recomendable y f&aacute;cil de gestionar. En el caso de nuestra p&aacute;gina hipot&eacute;tica se ver&aacute; un trozo de la misma y podr&aacute;s desplazarte para ver el resto, lo cual, como en el ordenador de poca resoluci&oacute;n, es una cosa inc&oacute;moda, pero podr&aacute;s leer.</p>
+<p>Obviamente en <strong>una p&aacute;gina bien dise&ntilde;ada&nbsp;con </strong>, se visualizar&iacute;a bien, pues se detectar&iacute;a una resoluci&oacute;n determinada (1024px de ancho) que har&iacute;a que los contenidos se distribuyesen correctamente y que se viesen a un tama&ntilde;o apropiado sin necesidad de hacer zoom. Esto es lo que experimentas cada vez que ves una p&aacute;gina m&oacute;vil bien dise&ntilde;ada en un tablet o tel&eacute;fono, por ejemplo as&iacute;:</p>
+<p style="text-align: center;"></p>
+<p>Donde todo se ve a un tama&ntilde;o adecuado y adem&aacute;s se redistribuyen (e incuso ocultan) elementos para aprovechar mejor el espacio (aunque esto no tiene nada que ver con el <em>viewport</em>, sino con RWD).</p>
+<br><h3>Cambiar el ancho del <em>viewport</em> en un dispositivo m&oacute;vil</h3>
+<p>Es posible indicar otro ancho diferente para el <em>viewport</em>&nbsp;al que tienen por defecto los dispositivos, utilizando la etiqueta "meta" de nombre <code>viewport</code>, que va en la cabecera de la p&aacute;gina:</p>
+<div class="mvw-example">&lt;<span class="property">meta </span><span class="atribute">name</span><span class="property">=</span><span class="value">"viewport" </span><span class="atribute">content</span><span class="property">=</span><span class="value">"width=device-width, initial-scale=1.0"</span>&gt;</div>
+<p>En este caso, esta etiqueta indica al navegador&nbsp;que se quiere&nbsp;establecer el ancho del <em>viewport</em> al n&uacute;mero de p&iacute;xeles de ancho que realmente tiene la pantalla del dispositivo. Fijando el factor de escala en 1.0 se evita el redimensionamiento del contenido para que quepa en la pantalla, lo cual podr&iacute;a provocar que el texto fuese demasiado peque&ntilde;o. Adem&aacute;s se permite que el usuario cambie ese factor de escala libremente.&nbsp; Esta es la configuraci&oacute;n recomendada para todas las p&aacute;ginas web, salvo casos especiales.</p>
+<p>Con esta etiqueta podr&iacute;amos establecer tambi&eacute;n un ancho diferente al que tiene por defecto. Incluso un tama&ntilde;o mayor que la resoluci&oacute;n f&iacute;sica de la pantalla. En ese hipot&eacute;tico caso, el <em>viewport</em> ser&iacute;a mayor que las dimensiones de la misma (algo poco recomendable). Tambi&eacute;n, si existiese un dispositivo (hoy en d&iacute;a ya no los hay) cuya resoluci&oacute;n f&iacute;sica fuese inferior a las dimensiones declaradas para el <em>viewport</em>, el efecto ser&iacute;a el mismo.</p>
+<p><strong>En resumen</strong>: es importante tener claro que el concepto de <em>viewport</em> y de resoluci&oacute;n de pantalla son independientes, uno puede ser mayor que el otro y viceversa, y que su relaci&oacute;n determina c&oacute;mo se visualizar&aacute; un contenido web en la pantalla.</p>
+<span class="PubDate">Fecha de publicación: <time datetime="2018-09-6" itemprop="dateCreated">6 de septiembre de 2018</time></span></div><br>
+<blockquote class="note"><i class="fas fa-exclamation-triangle"></i> Nota: Este articulo no me pertenece, lo tome de un foro para rellenar.</blockquote>
+<div class="credits">
+<img src="res/anm.jpeg">
+<p>Fundador de <a href="https://www.campusmvp.es/">campusMVP</a>, es ingeniero industrial y especialista en consultoría de empresa.
+    Ha escrito diversos libros, habiendo publicado hasta la fecha cientos de artículos sobre informática e ingeniería en publicaciones especializadas. 
+    Microsoft lo ha reconocido como MVP (Most Valuable Professional) en desarrollo web desde el año 2004 hasta la actualidad.
+    Puedes seguirlo en Twitter en <a href="https://twitter.com/jm_alarcon">@jm_alarcon</a> o leer sus blog <a href="http://www.jasoft.org/blog/">técnico</a> o <a href="https://jmalarcon.es/">personal.</a></p>
+</div>
+        </section>
+        <section id="section2">
+            <div class="pre-icon">
+                <img class="html" src="res/html5.svg" alt="image">
+                <img class="css" src="res/css3.svg" alt="image">
+                <img class="javascript" src="res/javascript.svg" alt="image">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="hr-list">
+            <li><a href="#"><i class="fas fa-lock"></i>T&C</i></a></li>
+            <li><a href="#"><i class="fas fa-question"></i>Acerca de</i></a></li>
+            <li><a href="#"><i class="fas fa-flag"></i>Paises</i></a></li>
+            <li><a onclick="error()"><i class="fas fa-users"></i>Patrocinadores</i></a></li>
+        </ul>
+        <ul class="vr-list">
+            <li><a href="mailto:tecnologyfanatico@gmail.com"><i class="fas fa-envelope"></i>Contratos</a></li>
+            <li><a href="tel:+50370393053"><i class="fas fa-phone"></i>Comunicate</a></li>
+            <li><a href="languajes.html"><i class="fas fa-globe-americas"></i>Lenguajes</a></li>
+            <li><a onclick="error()"><i class="fas fa-server"></i>Recursos</a></li>
+            <li><a onclick="error()"><i class="fas fa-donate"></i>PC Nueva</a></li>
+        </ul>
+        <p class="author">Hecho con &hearts; por Carlos - 2022</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
